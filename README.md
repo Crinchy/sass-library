@@ -8,13 +8,13 @@ A sass library which includes custom built components, fonts, libraries, styles 
 
 ## Includes
 
-- [/components]()
-- [/fonts]()
-- [/libraries]()
-- [/styles]()
-- [/templates]()
-- [app.scss]()
-- [config.scss]()
+- /components
+- /fonts
+- /libraries
+- /styles
+- /templates
+- app.scss
+- config.scss
 
 ## Setup
 

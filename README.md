@@ -4,16 +4,17 @@
 
 # Sass Library
 
-A sass library which includes custom built font, style & component templates, easy to use through our configuration file.
+A sass library which includes custom built components, fonts, libraries, styles & templates, easy to use through our configuration file.
 
 ## Includes
 
-- [Fonts]()
-- [Templates]()
-- [Library]()
-- [Styles]()
-- [Components]()
-- [Configuration]()
+- [/components]()
+- [/fonts]()
+- [/libraries]()
+- [/styles]()
+- [/templates]()
+- [app.scss]()
+- [config.scss]()
 
 ## Setup
 

@@ -4,7 +4,7 @@
 
 # Sass Library
 
-A custom sass/scss library includes fonts, styles, templates & components.
+A sass library which includes custom built font, style & component templates, easy to use through our configuration file.
 
 ## Includes
 
@@ -18,10 +18,10 @@ A custom sass/scss library includes fonts, styles, templates & components.
 ## Setup
 
 ```
-apt-get install sudo
+Install the sass library into your application & adjust your webpack-mix path.
 ```
 
 
 ## License
 
-The nginx configuration is open-sourced configuration licensed under the MIT license.
+The sass library is open-sourced package licensed under the MIT license.

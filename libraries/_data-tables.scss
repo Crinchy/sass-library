@@ -1,0 +1,65 @@
+.dataTables_length {
+  float: left;
+}
+
+.dataTables_filter {
+  float: right;
+}
+
+.dataTables_info {
+  float: left;
+}
+
+.dataTables_paginate {
+  float: right;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_infoe {
+  color: #4b4b4b;
+  padding-bottom: 10px;
+}
+
+.pagination {
+  display: inline-block;
+  padding: 5px 12.5px;
+  color: #4b4b4b;
+  background: #191919;
+  border: 2px solid #191919;
+  border-radius: 2px !important;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.pagination.current {
+  color: #4b4b4b !important;
+  border: 2px solid #202020;
+  background: #202020;
+  transition: 0.5s;
+}
+
+.pagination.disabled,
+.pagination.disabled:hover {
+  cursor: default;
+  background: #191919;
+  border: 2px solid #191919;
+  color: #4b4b4b !important;
+}
+
+.pagination:hover {
+  color: white !important;
+  border: 2px solid #252525;
+  background: #252525;
+  transition: 0.5s;
+}
+
+.pagination i {
+  color: #4b4b4b !important;
+  transition: 0.5s;
+}
+
+.pagination:hover i {
+  color: white !important;
+  transition: 0.5s;
+}

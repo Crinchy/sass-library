@@ -1,0 +1,15 @@
+.field-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  width: 100%;
+  line-height: 1;
+  display: inline-block;
+  text-align: justify;
+  background: rgb(27 27 32 / 0.5);
+  color: #808080;
+  padding: 15px;
+  border-radius: 5px;
+}

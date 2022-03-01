@@ -1,0 +1,156 @@
+*,
+:after,
+::before {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #191919;
+  line-height: 1.5;
+  font-family: $font-family;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-transform: lowercase;
+}
+
+a {
+  position: relative;
+  z-index: 950;
+  color: white;
+  text-decoration: none;
+}
+
+a, img, video {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+img, video {
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+i {
+  color: #555555;
+  text-shadow: 0 0 15px #353535;
+}
+
+p {
+  color: #808080;
+  font-size: 13px;
+}
+
+small {
+  color: #808080;
+  text-align: justify;
+  line-height: 0.75;
+}
+
+span {
+  color: #808080;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #18181c;
+}
+
+li {
+  line-height: 1.25;
+  margin-left: -22.5px;
+  color: grey;
+}
+
+label {
+  color: white;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+ul,
+small,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form {
+  margin: 0;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+select,
+select:focus,
+a,
+a:focus,
+button,
+button:focus,
+span,
+th {
+  outline: none;
+  border: 0;
+  font-family: $font-family;
+  cursor: pointer;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 75px;
+  padding: 10px 15px;
+  color: grey;
+  background: #282828;
+  border-radius: 2px;
+  resize: none;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  color: #808080;
+  text-align: left;
+}
+
+table a {
+  color: #808080;
+}
+
+th {
+  font-size: 25px;
+  background: #1a1a1d;
+  padding: 10px;
+  word-break: break-all;
+  text-align: center;
+  font-weight: 100;
+  border-radius: 5px;
+  border-bottom: 2px solid #1a1a1d;
+}
+
+td {
+  background: #18181c;
+  font-size: 12px;
+  padding: 5px;
+  word-break: break-all;
+  text-align: center;
+  border-radius: 5px;
+}

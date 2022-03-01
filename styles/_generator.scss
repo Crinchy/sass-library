@@ -1,0 +1,64 @@
+figure {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  margin: 10px;
+  height: 335px;
+  width: 305px;
+}
+
+figure img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+  opacity: 0.5;
+  filter: grayscale(100%) blur(1px);
+}
+
+figure:hover img {
+  transition: 0.25s;
+  opacity: 1;
+  filter: grayscale(0%) blur(0px);
+  transform: scale(1.1);
+}
+
+figure.effect-honey h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 25px;
+  text-transform: capitalize;
+  text-align: left;
+  text-shadow: 0 0 15px #fff;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0)
+}
+
+figure.effect-honey h2 i {
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  opacity: 0;
+  text-transform: none;
+  transition: opacity .35s, -webkit-transform .35s;
+  transition: opacity .35s, transform .35s;
+  transition: opacity .35s, transform .35s, -webkit-transform .35s;
+  -webkit-transform: translate3d(0, 30px, 0);
+  transform: translate3d(0, 30px, 0)
+}
+
+figure.effect-honey figcaption::before,
+figure.effect-honey h2 {
+  transition: -webkit-transform .55s;
+  transition: transform .55s;
+  transition: transform .55s, -webkit-transform .55s
+}
+
+figure.effect-honey:hover figcaption::before,
+figure.effect-honey:hover h2,
+figure.effect-honey:hover h2 i {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}

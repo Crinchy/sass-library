@@ -1,0 +1,15 @@
+.center {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.center-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

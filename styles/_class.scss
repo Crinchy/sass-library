@@ -1,0 +1,21 @@
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.invites {
+  background: rgba(65, 255, 125, 0.75);
+}
+
+.invites p {
+  color: #fff;
+}
+
+.invites:active {
+  transform: translate(0px, 1.5px);
+  -webkit-transform: translate(0px, 1.5px);
+}
+

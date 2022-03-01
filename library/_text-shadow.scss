@@ -1,0 +1,9 @@
+/* Text-Shadow */
+.ts-grey {
+    text-shadow: $text-shadow;
+}
+
+.ts-1 {
+    text-shadow: 0px 0px 10px #424B6D;
+    color: #424B6D;
+}
